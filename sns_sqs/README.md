@@ -6,6 +6,10 @@ This guide demonstrates how to use Terraform to:
 2. Subscribe the queue to the topic
 3. Publish and consume messages
 
+![AWS SQS & SNS Demo](sqs_sns.png)
+
+*Figure 1: Screenshot of the successful demo showing message flow from SNS to SQS*
+
 ## Prerequisites
 - AWS account with CLI configured (`aws configure`)
 - Terraform installed
@@ -108,6 +112,14 @@ Expected output:
 }
 ```
 
+## Visual Demonstration
+
+After running the above commands, you should see results similar to this:
+
+![Terminal Output](sqs_sns.png)
+
+*Figure 2: Terminal output showing successful message transmission*
+
 ## Step 5: Clean Up Resources
 
 When finished, destroy all resources to avoid unnecessary charges:
@@ -123,6 +135,7 @@ Type `yes` when prompted to confirm deletion.
 1. **AWS CLI not configured**: Run `aws configure` and enter your credentials
 2. **Permissions errors**: Verify your IAM user has proper permissions
 3. **Terraform errors**: Check AWS service limits in your region
+4. **Screenshot not appearing**: Ensure `sqs_sns.png` is in the same directory as this guide
 
 ## Additional Demonstrations (Optional)
 
