@@ -135,13 +135,6 @@ Type `yes` when prompted to confirm deletion.
 1. **AWS CLI not configured**: Run `aws configure` and enter your credentials
 2. **Permissions errors**: Verify your IAM user has proper permissions
 3. **Terraform errors**: Check AWS service limits in your region
-4. **Screenshot not appearing**: Ensure `sqs_sns.png` is in the same directory as this guide
-
-## Additional Demonstrations (Optional)
-
-- Show multiple subscribers by creating a second queue
-- Demonstrate message filtering by adding subscription filters
-- Show dead-letter queue configuration for error handling
 
 ## Resources
 
